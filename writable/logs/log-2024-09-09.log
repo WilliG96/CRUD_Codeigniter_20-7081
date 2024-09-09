@@ -1,0 +1,60 @@
+CRITICAL - 2024-09-09 17:58:44 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "cliente_view.php"
+[Method: GET, Route: clientes-list]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('cliente_view.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('cliente_view', [], true)
+ 3 APPPATH\Controllers\ClienteCrud.php(12): view('cliente_view', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ClienteCrud->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClienteCrud))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-09 17:59:02 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "cliente_view.php"
+[Method: GET, Route: clientes-list]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('cliente_view.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('cliente_view', [], true)
+ 3 APPPATH\Controllers\ClienteCrud.php(12): view('cliente_view', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ClienteCrud->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClienteCrud))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-09 17:59:42 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "cliente_view.php"
+[Method: GET, Route: clientes-list]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('cliente_view.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('cliente_view', [], true)
+ 3 APPPATH\Controllers\ClienteCrud.php(12): view('cliente_view', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ClienteCrud->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClienteCrud))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-09 18:00:48 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "edit_cliente.php"
+[Method: GET, Route: edit-cliente/1]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('edit_cliente.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('edit_cliente', [], true)
+ 3 APPPATH\Controllers\ClienteCrud.php(38): view('edit_cliente', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ClienteCrud->singleCliente('1')
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClienteCrud))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-09 20:41:36 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "edit_cliente.php"
+[Method: GET, Route: edit-cliente/2]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('edit_cliente.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('edit_cliente', [], true)
+ 3 APPPATH\Controllers\ClienteCrud.php(43): view('edit_cliente', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ClienteCrud->singleCliente('2')
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClienteCrud))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
